@@ -6,7 +6,7 @@
             "Action": [
                 "dynamodb:PutItem"
             ],
-            "Resource": "arn:aws:dynamodb:us-east-1:744763848951:table/*"
+            "Resource": "arn:aws:dynamodb:us-east-1:********:table/*"
         },
         {
             "Effect": "Allow",
@@ -15,7 +15,7 @@
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
             ],
-            "Resource": "arn:aws:logs:us-east-1:744763848951:*"
+            "Resource": "arn:aws:logs:us-east-1:********:*"
         },
         {
             "Effect": "Allow",
@@ -24,7 +24,7 @@
                 "sqs:GetQueueAttributes",
                 "sqs:ReceiveMessage"
             ],
-            "Resource": "arn:aws:sqs:us-east-1:744763848951:ProductPurchasesDataQueue"
+            "Resource": "arn:aws:sqs:us-east-1:********:ProductPurchasesDataQueue"
         }
     ]
 }
