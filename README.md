@@ -1,4 +1,3 @@
-
 # Serverless Application with AWS Lambda, API Gateway, S3, SQS, and DynamoDB
 
 This project demonstrates how to build a fully **Serverless Application** using AWS services like **Lambda**, **API Gateway**, **S3**, **SQS**, and **DynamoDB**. The architecture ensures scalability, fault tolerance, and low operational overhead by eliminating the need for managing servers.
@@ -6,6 +5,8 @@ This project demonstrates how to build a fully **Serverless Application** using 
 ## Project Overview
 
 In this project, I developed a serverless application that processes requests via **API Gateway**, triggers background processing with **AWS Lambda**, stores data in **DynamoDB**, and handles message queuing with **SQS**. This architecture provides a highly scalable and cost-effective solution for handling various workloads.
+
+You can view the project details [here](https://awsportfolio.sila.studio/project/serverless-application/).
 
 This project was completed as part of the **Digital Cloud Training** bootcamp, where I learned how to design and implement serverless applications using AWS services.
 
@@ -24,7 +25,6 @@ The architecture includes:
 3. **Amazon S3**: Stores static content and serves as a trigger for file processing workflows.
 4. **Amazon DynamoDB**: A NoSQL database used to store structured application data with low-latency access.
 5. **Amazon SQS**: Handles message queuing, ensuring asynchronous task processing and decoupling Lambda functions.
-
 
 ## AWS Services Used
 - **Amazon API Gateway**: For exposing RESTful APIs and routing client requests to Lambda functions.
@@ -58,5 +58,4 @@ This project was developed as part of the **Digital Cloud Training** bootcamp.
 ## Conclusion
 
 This project demonstrates how to build a scalable, serverless application using AWS Lambda, API Gateway, S3, SQS, and DynamoDB. By leveraging a serverless architecture, the solution is highly efficient and requires minimal operational overhead.
-
-![Screenshot 2024-04-12 194930](https://github.com/user-attachments/assets/0944bb7a-318b-4ad3-b8ac-b43c6da78c1f)
+![Screenshot 2024-04-12 194930](https://github.com/user-attachments/assets/86f5acd6-6f28-451c-b92a-867b231f9193)
